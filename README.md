@@ -17,7 +17,7 @@ Backend-first platform for recording disasters, enriching them with locations, f
 Needs **Node 20+** and **Docker Desktop** (for PostgreSQL + PostGIS and Redis). A **Gemini API key** is only needed for automatic location resolution — everything else works without one.
 
 ```bash
-git clone https://github.com/OMG2Git/disaster-sri.git
+git clone https://github.com/Srinidhi444/Disaster-Management
 cd disaster-sri
 cp .env.example .env     # then set GEMINI_API_KEY (and a distinctive NOMINATIM_USER_AGENT — see note below)
 npm install

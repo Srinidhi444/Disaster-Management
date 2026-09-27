@@ -62,9 +62,9 @@ See [.env.example](.env.example) (backend) and [frontend/.env.example](frontend/
 
 ## Architecture overview
 
-<!-- PASTE THE ARCHITECTURE DIAGRAM IMAGE HERE, e.g.:
-![Architecture diagram](docs/architecture.png)
--->
+
+![Architecture diagram](docs/architecture.jpeg)
+
 
 The system is a **modular monolith with background workers**, not a microservice mesh: one codebase, five backend processes, plus PostgreSQL and Redis as infrastructure. Each process is a plain `npm run` script, so the whole thing can run as separate `node` processes locally or as separate containers in Docker Compose — the code doesn't change either way.
 
